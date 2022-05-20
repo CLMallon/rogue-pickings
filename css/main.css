@@ -13,7 +13,7 @@ body {
 
 .container{
 	max-width: 1200px;
-	margin: 0 auto;
+	width: 90%;
 	display: flex;
 	justify-content: center;
 	flex-flow: row wrap;
@@ -162,6 +162,7 @@ footer {
 	display: flex;
 	justify-content: center;
 	align-items: center;
+	flex-flow: row wrap;
 }
 footer span {
 	font-family: 'Galada', cursive;
