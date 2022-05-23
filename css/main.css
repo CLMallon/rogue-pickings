@@ -196,6 +196,23 @@ footer span {
     	justify-content: center;
     	align-items: flex-start;
 	}
+	
+	.section-one {
+		flex-basis: 33.33%;
+    	padding-right: 1em;
+	}
+
+	.section-two {
+		flex-basis: 33.33%;
+		padding: 0 1em;
+		border-left: 1px solid #eee;
+		border-right: 1px solid #eee;
+	}
+
+	.section-three {
+		flex-basis: 33.33%;
+		padding: 0 1em;
+	}
 
 }
 
