@@ -190,7 +190,13 @@ footer span {
 
 @media all and (min-width:768px) {
     /* Tablet styles here */
-	
+	.bottom-section {
+		flex-flow: row nowrap;
+		width: 100%;
+    	justify-content: center;
+    	align-items: flex-start;
+	}
+
 }
 
 @media all and (min-width:1200px) {
